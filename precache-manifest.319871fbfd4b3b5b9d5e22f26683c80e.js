@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/trainze/static/js/runtime~main.4b778817.js"
   },
   {
-    "revision": "21e0839a0340a0192894",
-    "url": "/trainze/static/js/main.8dbe30f2.chunk.js"
+    "revision": "6c041d188818444e15be",
+    "url": "/trainze/static/js/main.48559777.chunk.js"
   },
   {
     "revision": "e3974443c12721decbd2",
     "url": "/trainze/static/js/2.63a6d470.chunk.js"
   },
   {
-    "revision": "21e0839a0340a0192894",
+    "revision": "6c041d188818444e15be",
     "url": "/trainze/static/css/main.adbd8cd6.chunk.css"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/trainze/static/css/2.9a60604e.chunk.css"
   },
   {
-    "revision": "6115e11c8e74d29615a708862b54d020",
+    "revision": "4b7f1d7a936a612cc53912f814a8952c",
     "url": "/trainze/index.html"
   }
 ];
