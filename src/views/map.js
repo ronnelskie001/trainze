@@ -6,7 +6,7 @@ const MapPage = () => {
   return (
     <div className="container">
       <h1 className="header">Map</h1>
-      <img src={mapImage} alt="map" className="mapImage" />
+      <img src={mapImage} alt="map" className="img" />
     </div>
   );
 };
