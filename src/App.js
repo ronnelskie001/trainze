@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
 
-function App() {
+import TopNav from "./component/navbar";
+import HomePage from "./views/home";
+import MapPage from "./views/map";
+import RoutePage from "./views/route";
+import AboutPage from "./views/about";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
+const App = () => {
+  const [changePage, setChangePage] = useState("home");
+  const RenderBody = () => {
+    switch (changePage) {
+      case "home":
+        return <HomePage />;
+      case "map":
+        return <MapPage />;
+      case "route":
+        return <RoutePage />;
+      case "about":
+        return <AboutPage />;
+      default:
+        return <HomePage />;
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <TopNav changePage={changePage} setChangePage={setChangePage} />
+      <RenderBody />
+    </>
   );
-}
+};
 
 export default App;
