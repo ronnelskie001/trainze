@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 const App = () => {
-  const [changePage, setChangePage] = useState("home");
+  const [changePage, setChangePage] = useState("route");
   const RenderBody = () => {
     switch (changePage) {
       case "home":

@@ -40,4 +40,13 @@ body{
 .imageHeaderCaption{
   text-align: center;
   color: #144779;
+  border-bottom: 2px solid transparent;
+}
+
+.colClick{
+  cursor: pointer;
+}
+
+.colClick:hover .imageHeaderCaption, .active .imageHeaderCaption{
+  border-bottom: 2px solid #FF9033 !important;
 }
