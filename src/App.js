@@ -11,7 +11,7 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import "./App.css";
 
 const App = () => {
-  const [changePage, setChangePage] = useState("route");
+  const [changePage, setChangePage] = useState("about");
   const RenderBody = () => {
     switch (changePage) {
       case "home":
