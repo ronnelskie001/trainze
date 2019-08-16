@@ -9,10 +9,8 @@ Then do this to your cmd
 
 1. `git clone https://github.com/ronnelskie001/trainze.git`
 
-2. `git checkout dev`
+2. `cd trainze`
 
-3. `cd trainze`
+3. `npm install`
 
-4. `npm install`
-
-5. `npm start`
+4. `npm start`
