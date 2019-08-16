@@ -1,4 +1,4 @@
-1. `git pull https://github.com/ronnelskie001/trainze.git`
+1. `git clone https://github.com/ronnelskie001/trainze.git`
 
 2. `cd trainze`
 
