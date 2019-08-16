@@ -15,4 +15,4 @@ Then do this to your cmd
 
 4. `npm install`
 
-5. `yarn start`
+5. `npm start`
